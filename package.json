@@ -1,0 +1,11 @@
+{
+  "name": "blog-posts-walnut-api-challenge",
+  "version": "1.0.0",
+  "description": "API Blog Post Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Manuel Santander",
+  "license": "ISC"
+}
