@@ -6,4 +6,23 @@
 [x] create initial end points 
 [x] initiate git repo to establish commits. 
 [x] plan required packages 
-[] fetch blog posts from external api
+[x] fetch blog posts from external api
+[x] setup end points 
+[x] setup ping route setup http headers
+[x] setup get posts route. 
+[x] async https fetch 
+[x] setup node-cache 
+
+
+
+Project Specifications 
+-----------------------
+[x] An /api/posts route that handles the following query parameters:
+    [x] tags (mandatory) : any number of comma-separated strings
+    [x] sortBy (optional) : one of “id”, “reads”, “likes”, “popularity”
+    [x] direction (optional) : one of “asc”, “desc”, defaults to “asc”
+[x] Error handling: Return an error message if:
+    [x] tags parameter is missing
+    [x] sortBy or direction has an invalid value
+[x] Testing without using our solution API route
+[X] Caching (bonus)

@@ -4,17 +4,18 @@
   "description": "API Blog Post Challenge",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "clear && nodemon app.js"
   },
   "author": "Luis Manuel Santander",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^28.1.0",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "node-cache": "^5.1.2"
   }
 }
